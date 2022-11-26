@@ -1,0 +1,38 @@
+.todo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 2px;
+}
+
+.container-button_edit {
+    background: cornflowerblue;
+}
+
+.container-button_delete {
+    background: indianred;
+}
+
+.button-add-todo {
+    margin: 10px;
+    background-color: aquamarine;
+}
